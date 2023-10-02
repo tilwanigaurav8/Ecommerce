@@ -7,8 +7,7 @@ function getProducts(req, res) {
   }
   
   function createNewProduct(req,res) {
-    console.log(req.body);
-    console.log(req.file);
+    
     res.redirect('/admin/products');
   }
   
